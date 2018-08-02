@@ -6,6 +6,6 @@ def line(katz_deli)
     for i in (0...katz_deli.length)
       line_list.push("#{i+1}. #{katz_deli[i]}")
     end
-    puts ""
+    puts "The line is currently: "
   end
 end
