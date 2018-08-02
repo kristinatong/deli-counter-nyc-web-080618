@@ -4,6 +4,8 @@ def line(katz_deli)
   else
     line_list = []
     for i in (0..katz_deli.length)
-      
+      line_list.push("#{i+1}. #{katz_deli[i]}")
+    end
+    puts "The line is currently: #{line_list}"
   end
 end
