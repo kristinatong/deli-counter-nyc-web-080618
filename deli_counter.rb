@@ -3,9 +3,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     line_list = []
-    for i in (0..katz_deli.length)
-      line_list.push("#{i+1}. #{katz_deli[i]}")
+    katz_deli.each do |x|
+      line_list.push("#{x.index+1}. #{x}")
     end
-    puts "The line is currently:" + line_list
   end
 end
