@@ -6,6 +6,6 @@ def line(katz_deli)
     for i in (0...katz_deli.length)
       line_list.push("#{i+1}. #{katz_deli[i]}")
     end
-    puts "The line is currently: #{line_line.join}"
+    puts "The line is currently: #{line_line.join(" "}"
   end
 end
